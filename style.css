@@ -160,7 +160,11 @@ font-size: 15px;
 	font-size: 30px;
 	margin-left: 20px;
 }
-
+#certi{
+	color: #FF4500;
+	font-style: normal;
+	text-decoration: none;
+}
 
 /* project */
 #project,#achievements{
@@ -181,7 +185,32 @@ h2{
 	color: white;
 	font-size: 18px;
 }
+.tech{
+	font-weight: lighter;
+	font-size: 10px;
+	text-decoration: underline;
+}
+.proj_link a{
+	color: #ababab;
+	font-family: Century Gothic;
+	text-decoration: none;
+	font-size: 20px;
+	flex-basis: 35%;
+	margin-left: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	transition: transform 0.5s;
+}
 
+.proj_link a:hover{
+	color: #f05011;
+	font-family: Century Gothic;
+	transform: translateY(-6px);
+	transform: scale(1.25);
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 20px;
+}
 
 /* resume */
 .btn{
