@@ -1,10 +1,12 @@
 *{
 	margin: 0px;
+	/* background-color: #f05011; */
 }
 body{
 	background-color: black;
 	color: white;
 	font-family: Century Gothic;
+	/* background-color: #f05011; */
 }
 header{
 	/* background-image: url(1.png); */
@@ -13,6 +15,8 @@ header{
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
+	margin-bottom: 0px;
+	
 }
 .header-text{
 	font-size: 30px;
@@ -21,18 +25,46 @@ header{
 }
 .me{
 	float: left;
-	margin: 200px;
+	/* margin: 100px; */
 	margin-top: 10px;
 	border-radius: 8px;
 
 }
+#about{
+	/* display: block; */
+	height: 700px;
+	margin-top: -67px;
+	background-color: #f05011;
+	margin-bottom: 0px;
+}
+.container{
+	/* background-color: aqua; */
+	padding-top: 10px;
+	margin: 0px;
+	height: 100%;
+}
+.row{
+	/* margin: -150px; */
+	height: 100%;
+	display: flex;
+	/* background-color: green; */
+}
+.row-contact{
+	margin: 100px 250px;
+	display: flex;
+	/* background-color: white; */
+}
 .about-col-1{
 	flex-basis: 35%;
+	margin-left: 150px;
 }
 .about-col-2{
 	flex-basis: 60%;
 	padding:10px;
-	margin: 200px;
+	margin: 100px;
+	font-size: 1.1rem;
+	text-align: justify;
+	/* background-color: brown; */
 }
 nav{
 	display: flex;
@@ -67,17 +99,64 @@ nav ul li a::after{
 nav ul li a:hover::after{
 	width: 100%;
 }
+.open{
+	margin-left: 10px;
+	display: flex;
+	/* width: 200px;
+	height: 200px; */
+	padding: 0px;
+	/* background-color: aqua; */
+}
+#Skills,#Education{
+	margin: 30px 10px;
+	width: 100px;
+	/* background-color: pink; */
+	font-size: 2.2rem;
+	color: white;
+	/* text-align: center; */
+}
+#Skills{
+	border-right: 2px solid white;
+	padding-right: 100px;
+}
+.skill{
+	font-size: 1.2rem;
+	background-color: rgb(28, 26, 26);
+	margin: 10px 0px;
+	padding: 10px;
+	width: 150px;
+	height: 68%;
+}
+.edu{
+	display: flex;
+	font-size: 1.5rem;
+	font-weight: 900;
+	margin: 0;
+	padding: 0;
+	/* text-align: center; */
+}
+.edu div{
+	background-color: rgb(28, 26, 26);
+	margin: 10px 10px;
+	padding: 10px;
+}
+#Education p{
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-align: justify;
 
+}
 
 .tab ul li{
 	display: inline-block;
 	list-style: none;
-	margin: 10px 20px;
+	margin: 20px 20px;
+	font-size: 2.1rem;
 }
 .tab ul li a{
 	display: inline-block;
 	list-style: none;
-	margin: 10px 20px;
+	/* margin: 10px 20px; */
 	color:white;
 	text-decoration: none;
 	position: relative;
@@ -86,7 +165,7 @@ nav ul li a:hover::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #FF4500;
+	background: white;
 	position: absolute;
 	left: 0;
 	transition: 0.5s;
@@ -97,9 +176,11 @@ nav ul li a:hover::after{
 }
 
 .tabcontent{
-	display: none;color: #FF4500;
+	/* display: none; */
+	color: #FF4500;
 	margin: 15px 50px;
-	padding-left: 450px;position: relative;
+	
+	/* padding-left: 45px;position: relative; */
 }
 .detail{
 	color: white;font-size: 15px;
@@ -114,27 +195,30 @@ span{
 }
 
   /* contact */
-.contact-left{
+.contact-right{
 flex-basis: 35%;
 float:right;
-margin-right: 200px;
+margin-left: 200px;
+margin-top: -50px;
+/* background-color: aqua; */
 }
-.contact-right{
+.contact-left{
 	flex-basis: 60%;
 	padding:10px; 
-	margin: 200px;
+	/* background-color: blue; */
+	/* margin: 300px; */
 }
-.contact-left p{
+.contact-right p{
 margin-top: 30px;
 color: white;
 }
 
-.contact-left p a{
+.contact-right p a{
 	margin-top: 30px;
 	color: white;
 	text-decoration: none;
 	}
-.contact-left p i{
+.contact-right p i{
 	color: #FF4500;
 margin-right: 15px;
 margin-bottom: 10px;
@@ -170,24 +254,55 @@ font-size: 15px;
 #project,#achievements{
 	margin: 50px;
 	padding: 10px;
+	
+}
+.container_list h1{
+	text-align: center;
+	font-size: 4.1rem;
+	font-family: 'Courier New', Courier, monospace;
 }
 h2{
 	color: #FF4500;
 }
 .projlist{
+	
+	display: flex;
+}
+.projlist li h3{
 	color: #FF4500;
-	font-size: smaller;
+	/* font-size: smaller; */
 	font-style: italic;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
-.projlist p{
+.projlist {
 	color: white;
+	
 	font-size: 18px;
 }
+.projects{
+	margin: 20px 20px;
+	background-color:rgb(29, 27, 27) ;
+	width: 500px;
+	padding: 12px;
+	text-align: center;
+	font-weight: 200;
+	border: 2.5px solid #FF4500;
+	border-radius: 15px;
+}
+.projects:hover{
+	transform: translateY(10px);
+	transition: 0.3s;
+	background-color:rgb(24, 21, 21) ;
+}
+.projects h3{
+	font-size: 2.1rem;
+	margin-bottom: 10px;
+}
 .tech{
+	margin: 10px 0px;
 	font-weight: lighter;
-	font-size: 10px;
+	/* font-size: 1px; */
 	text-decoration: underline;
 }
 .proj_link a{
@@ -197,12 +312,12 @@ h2{
 	font-size: 20px;
 	flex-basis: 35%;
 	margin-left: 20px;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	display: inline-block;
 	transition: transform 0.5s;
 }
 
-.proj_link a:hover{
+/* .proj_link a:hover{
 	color: #f05011;
 	font-family: Century Gothic;
 	transform: translateY(-6px);
@@ -210,7 +325,15 @@ h2{
 	text-decoration: none;
 	font-size: 20px;
 	margin-left: 20px;
+} */
+
+.por{
+	/* background-color: #FF4500;
+	height: 500px; */
+	margin: 100px 200px ;
+	
 }
+
 
 /* resume */
 .btn{
@@ -229,8 +352,8 @@ h2{
 	margin-left: 25px;
 }
 
-.contact-right form{
-	width: 50%;
+.contact-left form{
+	width: 100%;
 }
 form input, form textarea{
 	width: 100%;
@@ -261,6 +384,19 @@ form .btn2{
 	color: green;
 	display: block;
 }
+
+.por_list{
+	display: flex;
+}
+.list{
+	/* background-color: #f05011; */
+	width: 450px;
+	/* display: flex; */
+	margin-right: 30px;
+	margin-left: 20px;
+}
+
+
 @media (max-width:1650px){
 header{
 background-image: url(1.png);}
@@ -282,6 +418,7 @@ header{background-image: url(1.png);}
 	.about-col-2{
 		margin: 0px;
 		margin-right: 50px;
+
 	}
 	#project{
 		margin: 50px;
@@ -330,8 +467,9 @@ header{background-image: url(1.png);}
 		margin-top: 180px;
 	}
 	#Skills,#Education{
-		margin: 10px;
+		/* margin: 10px; */
 		padding: 0px;
+		color: white;
 	}
 }
 
