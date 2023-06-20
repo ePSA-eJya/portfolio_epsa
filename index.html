@@ -7,13 +7,14 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<title>Epsa</title>
 </head>
 <body>
 	<header>
-		<div class="container">
+		<div class="container-header">
 			<nav>
 				<img src="Epsa.png" class="logo">
 				<ul>
@@ -21,7 +22,9 @@
 					<li><a href="#about">ABOUT</a></li>
 					<li><a href="#project">PROJECTS</a></li>
 					<li><a href="#achievements">ACHIEVEMENTS</a></li>
+					<li><a href="#contact">PORs</a></li>
 					<li><a href="#contact">CONTACT</a></li>
+
 				</ul>
 
 				<!-- <div class="jumbotron" >
@@ -44,6 +47,7 @@
 		</div>
 	</header>
 
+	<br><br><br>
 <!-- about -->
 
 	<div id="about">
@@ -58,233 +62,264 @@
 					<h1>About Me</h1><br>
 					<p>I am Epsa, currently pursuing a Mechanical Engineering degree from IIT BHU (Varanasi). I am a keen learner and love to learn new skills. I use a creative approch to problem solving. I have a good experience in working as a team. My team members have always found me cooperative and easy to approach.</p>
 					
-					<div class="tab">
+					<!-- <div class="tab">
 						<ul>
 							<li class="tablink" onclick="openPage('Skills')"><a	href="#Skills" >Skills</a></li>
 							<li class="tablink" onclick="openPage('Education')" id="defaultOpen"><a	href="#Education" >Education</a></li>
 						</ul>
-					</div>
-					
-					<div id="Skills" class="tabcontent">
-						<ul >
-							<li>HTML/CSS
-								<!-- <span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span> -->
-							</li><br>
-							<li>JAVA  
-								<!-- <span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span> -->
-							</li><br>
-							<li>C/C++  
-								<!-- <span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span> -->
-							</li><br>
-							<li>Python  
-								<!-- <span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span> -->
-							</li><br>
-							<li>Competitive Programming  
-								<!-- <span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span> -->
-							</li>	
-						</ul>
-					</div>
-						  
-					<div id="Education" class="tabcontent">
-					<!-- <h3>News</h3>
-					<p>Some news this fine day!</p>  -->
+					</div> -->
 
-					<ul >
-					<li>ICSE
-						<p class="detail"><span>97.6%</span><br>Class-10 Little Flower School, Jamshedpur</p>
-					</li>
-					<li>ISC
-						<p class="detail"><span>99.25%</span><br>Class-12 Little Flower School, Jamshedpur </p>
-					</li>
-					<li >IIT BHU
-						<p class="detail"><span>CPI - 9.25</span><br> Year MECHANICAL ENGINEERING</p>
-					</li>	
-				</ul>
+					<div class="open">					
+						<div id="Skills" class="tabcontent">Skills
+							<!-- <div > -->
+								<div class="skill">
+									<div>- HTML/CSS</div>
+									<div>- JAVA </div>
+									<div>- C </div>
+									<div>- C++</div>
+									<div>- Python </div>
+									<div>- Competitive Programming</div>	
+								</div>
+
+							<!-- </div> -->
+						</div>
+							
+						<div id="Education" class="tabcontent">Education
+							<div class="edu">
+								<div>ICSE
+									<p class="detail"><span>( 97.6%)</span><br>Class-10<br>Little Flower School, Jamshedpur</p>
+								</div>
+								<div>ISC
+									<p class="detail"><span>( 99.25%)</span><br>Class-12<br>Little Flower School, Jamshedpur </p>
+								</div>
+								<div >IIT BHU
+									<p class="detail"><span>CPI - 9.26</span><br>Second Year<br>MECHANICAL ENGINEERING</p>
+								</div>	
+							</div>	
+						</div>
+
+						</div>
 
 					</div>
-
 				</div>
 			</div>
 		</div>
 
 	</div>
-<br><br><br><br><br>
-<!-- project -->
-<div id="project">
-	<div class="container">
-		<div>
-			<h1>
-				Projects
-				<ul class="projlist">
-					<li>THE HANGMAN GAME</li>
-					<div class="proj_link">
-						<a href="https://github.com/ePSA-stACKoverFLoW/HANGMAN"><i class="fa fa-file"> View Project</i></a>
-					</div><br>
-					<p class="tech">Tech Stack Used- Python</p>
-						<p> Created a user friendly HANGMAN game using python. User gets 8 guesses to guess a secretword. </p>
-						<br>
-					<li>PORTFOLIO WEBSITE</li>
-					<div class="proj_link">
-						<a href="https://epsa-stackoverflow.github.io/portfolio_epsa/"><i class="fa fa-file"> View Project</i></a>
-					</div><br>
-						<p class="tech">Tech Stack Used- HTML, CSS</p>
-						<p>With the use of HTML, CSS created a portfolio website for myself. It mentions my personal details – with academic and extra-curricular achievements, a message drop box, downloadable resume and contact details.</p>
-				</ul>
-				
-				</h1>
-		</div>
-	</div>
-</div>
-
-<!-- achievements -->
-<div id="achievements">
-	<div class="container">
-		<div>
-			<h1>
-				Achievements
-				<ul class="projlist">
-					<li>Robotics Club</li>
-						<p> Active member of the robotics Club</p>
-					<li>Spardha Creative Team</li>
-						<p>Been a part of the creative team that designed fot Saturnalia and spardha. <a href="https://drive.google.com/file/d/1Y4nWOTCGCBGvPbSaTwviAo_IqpFAUQHY/view"><span id="certi">  View Certificate</span></a></p>
-					<li>CodeChef</li>
-					 <p>Achieved a global rank of 57 in div 3- CodeChef December Long among 5000+ participants</p>
-					
-					<li>CULTRANG IIT GOA</li>
-					<p>Ranked 1st in Pen Thralling – a 100-word Story writing contest.</p>
-					<li>Competition Success Review</li>
-					<p>Won 1st position in April 2022 essay writing contest at the reputed Competition Success Review magazine</li>
-					<li>Sahityotsav</li>
-					<p>CVR College of Engineering- Ranked 3rd in a fanfic writing contest.</p>
-				</ul>
-				</h1>
-		</div>
-	</div>
-</div>
 	
 
-<!-- contact -->
-	<div id="contact">
+	<!-- project -->
+	<div id="project">
 		<div class="container">
-			<div class="row">
-				
-				<div class="contact-left">
-					<div>
-						<h1>Contact Me</h1>
-						<p><i class="fa fa-paper-plane"></i>epsa.sharma11@gmail.com</p>
-						<p><i class="fa fa-paper-plane"></i>epsa.student.mec21@itbhu.ac.in</p>
-						<p><a href="tel:6201684200"><i class="fa fa-phone"></i>6201684200</a></p>
+			<div class="container_list"> 
+				<h1>
+					Projects
+				</h1>
+				<div class="projlist">
+					<div class="projects">
+						<h3>
+							THE HANGMAN GAME
+						</h3>
+						<!-- <div class="proj_link">
+							<a href="https://github.com/ePSA-stACKoverFLoW/HANGMAN"><i class="fa fa-file"> View Project</i></a>
+						</div> -->
+						<div class="tech">
+							Tech Stack Used- Python
+						</div>
+						Created a user friendly HANGMAN game using python. User gets 8 guesses to guess a secretword.
+					</div>
+					
+					<div class="projects">
+						<h3>
+							PORTFOLIO WEBSITE
+						</h3>
+						<!-- <div class="proj_link">
+							<a href="https://epsa-ejya.github.io/portfolio_epsa/#Skills"><i class="fa fa-file"> View Project</i></a>
+						</div> -->
+						<div class="tech">
+							Tech Stack Used- HTML, CSS
+						</div>
+						With the use of HTML, CSS created a portfolio website for myself. It mentions my personal details – with academic and extra-curricular achievements, a message drop box, downloadable resume and contact details.
 					</div>
 
-					<div class="social">
-						<a href="https://www.quora.com/profile/Epsa-1"><i class="fa fa-quora" ></i></a>
-						<a href="https://www.linkedin.com/in/epsa-32921223b/"><i class="fa fa-linkedin-square" ></i></a>
-						<a href="https://twitter.com/Epsa03545841?t=W-xp5q6GwLtfCs8Q8rZLhA&s=08"><i class="fa fa-twitter-square" ></i></a>
-						<a href="https://github.com/ePSA-stACKoverFLoW"><i class="fa fa-github" ></i></a><br>
-						<a href="https://codeforces.com/profile/epsa_StaCKOverfLow">CODEFORCES</a><br>
-						<a href="https://www.codechef.com/users/epsa_1103">CODECHEF</a>
-					</div><br>
-					
+					<div class="projects">
+						<h3>
+							AMAZON CLONE WEBSITE
+						</h3>
+						<!-- <div class="proj_link">
+							<a href="https://epsa-ejya.github.io/Amazon-clone/"><i class="fa fa-file"> View Project</i></a>
+						</div> -->
+						<div class="tech">
+							Tech Stack Used- HTML, CSS, JavaScript
+						</div>
+						Developed an online shopping site where users can view various items for online shopping.
+					</div>
 
-					<a href="Epsa's Resume (1).pdf" download class="btn btn2">Download Resume</a>
-				</div>
+					<div class="projects">
+						<h3>
+							STUDY OF DOUBLE DIFFUSION USING MACH-ZEHNDER INTERFEROMETER
+						</h3>
+						<!-- <div class="proj_link">
+							<a href="https://www.canva.com/design/DAFiUD1rNQY/70kHHN4Vi4PQFNZX1tE_Vg/edit?utm_content=DAFiUD1rNQY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><i class="fa fa-file"> View Project</i></a>
+							<a href="https://docs.google.com/document/d/1dpW1uhCbDpnGyABnPCYedyFdyGOtQ13Qmhz97raTPNQ/edit?usp=sharing"></a><i class="fa fa-file"> View Project</i></a>
+						</div> -->
+						<!-- <div class="tech">
+							Tech Stack Used- HTML, CSS, JavaScript
+						</div> -->
+						Exploratory project in 2nd year, which involved study of double diffusion which could be utilised in understanding 
+	the climate change, oceanography etc.
+					</div>
 
-				<div class="contact-right">
-					<form name="submit-to-google-sheet" id="form">
-						<input type="text" name="Name" placeholder="Your Name" required>
-						<input type="email" name="email" placeholder="Your e-mail" required>
-						<textarea type="Message" name="Message" rows="6" placeholder="Your Message" required></textarea>
-						<button type="submit" class="btn btn2">SUBMIT</button>
-					</form>
-				</div>
-				
-				<span id="msg"></span>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="copyright">
-		<p>&copy; copyright Epsa</p>
+
+	<div id="achievements">
+		<div class="container">
+			<div class="container_list">
+				<h1>
+					Extra-curricular
+				</h1>
+				<div >
+					<div class="projlist">
+						<div class="projects">
+							<h3>Robotics Club</h3>
+							<p> - Core Member/Used ROS to complete tasks of the Robotics Club, participated in inter-club events, a member of the 
+								fresher’s club orientation committee.</p>
+							<p>	- Organised Vision- fresher’s computer vision and Pybullet based robotics event, also mentored the participants for 
+								the same. </p>
+							<p>	- Organised Robotics Summer camp for the Freshers, and also mentored for the same.</p>
+						</div>
+
+						<div class="projects">
+							<h3>Inter-IIT Tech Meet</h3>
+							<p>Created a python wrapper for controlling the locomotion of the drone using Windows/Linux by making use of 
+								different MSP packets. </p>
+						</div>
+
+						<div class="projects">
+							<h3>Inter-IIT Cult Meet</h3>
+							<p>As a member of the Literary Club participated in the Word Games at the Inter-IIT.</p>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
 	</div>
-	<script>
-		function openPage(pageName,elmnt,color) {
-			var i, tabcontent, tablinks;
-			tabcontent = document.getElementsByClassName("tabcontent");
-			for (i = 0; i < tabcontent.length; i++) {
-				tabcontent[i].style.display = "none";
-			}
-			tablinks = document.getElementsByClassName("tablink");
-			for (i = 0; i < tablinks.length; i++) {
-				tablinks[i].style.backgroundColor = "";
-			}
-			document.getElementById(pageName).style.display = "block";
-			elmnt.style.backgroundColor = color;
-			}
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-		</script>
+	<!-- achievements -->
+	<div id="achievements">
+		<div class="container">
+			<div class="container_list">
+				<h1>Achievements</h1>
+				<div >
+					<div class="projlist">
+						<div class="projects">
+							<h3>GIRLSCRIPT SUMMER OF CODE’23 </h3>
+							<p> (Contributor) – open source contribution. Successfully contributed and merged 6 PR’s until now</p>
+						</div>
 
-<script>
-	const scriptURL = 'https://script.google.com/macros/s/AKfycbwvtfVAOsl56Ks14AX0xSG-Oz3tk1OgK-4xzXAKfsfRXn6qR_E-bMzzp6J24pTlOKIE/exec'
-	const form = document.forms['submit-to-google-sheet']
-	const msg=document.getElementById("msg")
-  
-	form.addEventListener('submit', e => {
-	  e.preventDefault()
-	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-		.then(response =>{
-			msg.innerHTML="Message sent successfully"
-			setTimeout(function(){msg.innerHTML=""},5000)
-			form.reset()
-		})
-		.catch(error => console.error('Error!', error.message))
-	})
-  </script>
+						<div class="projects">
+							<h3>CodeChef</h3>
+							<p>Achieved a global rank of 57 in div 3- CodeChef December Long among 5000+ participants</p>				
+						</div>
+					</div>
+
+					<div class="projlist">
+						<div class="projects">
+							<h3>CULTRANG IIT GOA</h3>
+							<p>Ranked 1st in Pen Thralling – a 100-word Story writing contest.</p>
+						</div>
+
+						<div class="projects">
+							<h3>Competition Success Review</h3>
+							<p>Won 1st position in April 2022 essay writing contest at the reputed Competition Success Review magazine</li>
+						</div>
+
+						<div class="projects">
+							<h3>Sahityotsav</h3>
+							<p>CVR College of Engineering- Ranked 3rd in a fanfic writing contest.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<div class="por">
+		<div class="container">
+			<div class="container_list"> 
+				<h1>Position of Responsibility</h1>
+				<div class="projlist">
+					
+					<div class="projects">
+						<h3>CREATIVE EXECUTIVE (SPARDHA)</h3> 
+						<p>A member of the creative team of Spardha - an inter-college sports fest of IIT BHU which witnessed a participation 
+							of 20+ colleges with 5000+ participants.
+							</p>
+					</div>
+
+					<div class="projects">
+						<h3>EVENT EXECUTIVE (TECHNEX)</h3>
+						<p>Our team collectively worked to successfully organise MazeX- a Robotics based maze exploration event for Technex 
+							– a 3-day inter-college technical fest of IIT BHU which witnessed a participation of 20+ colleges with 3000+ 
+							participants.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- contact -->
+		<div id="contact">
+			<div class="container">
+				<div class="row-contact">
+					
+					<div class="contact-left">
+						<form name="submit-to-google-sheet" id="form">
+							<input type="text" name="Name" placeholder="Your Name" required>
+							<input type="email" name="email" placeholder="Your e-mail" required>
+							<textarea type="Message" name="Message" rows="6" placeholder="Your Message" required></textarea>
+							<button type="submit" class="btn btn2">SUBMIT</button>
+						</form>
+					</div>
+					
+					<div class="contact-right">
+						<div>
+							<h1>Contact Me</h1>
+							<p><i class="fa fa-paper-plane"></i>epsa.sharma11@gmail.com</p>
+							<p><i class="fa fa-paper-plane"></i>epsa.student.mec21@itbhu.ac.in</p>
+							<p><a href="tel:6201684200"><i class="fa fa-phone"></i>6201684200</a></p>
+						</div>
+
+						<div class="social">
+							<a href="https://www.quora.com/profile/Epsa-1"><i class="fa fa-quora" ></i></a>
+							<a href="https://www.linkedin.com/in/epsa-32921223b/"><i class="fa fa-linkedin-square" ></i></a>
+							<a href="https://twitter.com/Epsa03545841?t=W-xp5q6GwLtfCs8Q8rZLhA&s=08"><i class="fa fa-twitter-square" ></i></a>
+							<a href="https://github.com/ePSA-eJya"><i class="fa fa-github" ></i></a><br>
+							<a href="https://codeforces.com/profile/epsa_StaCKOverfLow">CODEFORCES</a><br>
+							<a href="https://www.codechef.com/users/epsa_1103">CODECHEF</a>
+						</div><br>
+						
+
+						<a href="Epsa's Resume (1).pdf" download class="btn btn2">Download Resume</a>
+					</div>
+
+					
+					<!-- <span id="msg"></span>
+					</div> -->
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<p>&copy; copyright Epsa</p>
+		</div>
+	
 </body>
